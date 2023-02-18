@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header part css start here */
+.header-part{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background: url("./images/donation1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.header-part h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 900;
+    color:#FFFFFF;
+    text-align: center;
+    z-index: 5;
+}
+.header-part p{
+    font-size: 18px;
+    line-height: 28px;
+    width: 80%;
+    color:#FFFFFF;
+    text-align: center;
+    z-index: 3;
+}
+.header-part button{
+    padding: 14px 22px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    background: #FF5959;
+    font-size: 25px;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 1px solid saddlebrown;
+    z-index: 3;
+}
+.header-part button:hover{
+    color: #FF5959;
+    background: #FFEEEE;
+
+}
+.overly{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top , blue ,green );
+    opacity: 0.4;
+    position: absolute;
+}
+
+/* header-part css code end here */
+
+/* donate-today part star */
+.donate-today{
+    width: 100%;
+    text-align: center;
+    background: #FFFFFF;
+}
+.donate-today .inner-donate{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    margin: 30px 0;
+  
+}
+.donate-today .inner-donate h1{
+        font-size: 45px;
+        line-height: 55px;
+        font-weight: 900;
+        color:black;
+        padding: 30px 0;
+     
+}
+.donate-today .inner-donate p{
+    font-size: 18px;
+    line-height: 28px;
+    width: 80%;
+    color:#67997dc9;
+    text-align: center;
+    margin: auto;
+}
+.tk-option{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.tk-option> div{
+    background: #ca9393;
+    border: 1px solid #FF5959;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tk-option> div:hover{
+    background: #e42e2e;
+    border: 1px solid #FF5959;
+    color: #d9e0dde0;
+    
+}
+hr{
+    width: 50%;
+    margin: auto;
+}
+.donate-today .inner-donate button{
+    width: 15%;
+    margin: auto;
+    padding: 20px 5px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    background: #FF5959;
+    font-size: 25px;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 1px solid saddlebrown;
+}
+
+
+
+/* donate-today part end */
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .header-part h1{
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .header-part{
+        background-size: 100% 100%;
+    }
+    .donate-today .inner-donate button{
+        width: 30%;
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
